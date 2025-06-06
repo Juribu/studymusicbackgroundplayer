@@ -9,32 +9,33 @@
 
 <body>
 <div class="container">
-    <div class="music-player">
-        <nav>
-            <button class = "icon-btn-text" id = "genre-btn">
-                <img src="assets/icons/Genre.svg" alt="Play" />
-            </button>
-            <button class = "icon-btn-text" id = "mood-btn">
+    <div class="music-control">
+        <nav class="main-controls"> 
+            <button class = "icon-btn" id = "mood-btn">
                 <img src="assets/icons/Mood.svg" alt="Play" />
             </button>
-            <button class = "icon-btn-text" id = "customize-btn">
+            <button class = "icon-btn" id = "genre-btn">
+                <img src="assets/icons/Genre.svg" alt="Play" />
+            </button>
+            <button class = "icon-btn" id = "customize-btn">
                 <img src="assets/icons/Customize.svg" alt="Play" />
             </button>
-            <button class = "icon-btn" id = "play-btn">
-                <img src="assets/icons/Play-Button.svg" alt="Play" />
-            </button>
-    
-            <button class = "icon-btn" id = "pause-btn">
-                <img src="assets/icons/Pause-Button.svg" alt="Pause" />
-            </button>
 
+        </nav>
+        <nav class="playback-controls">
             <button class = "icon-btn" id = "prev-btn">
                 <img src="assets/icons/Play-Prev.svg" alt="Next" />
             </button>
+
+            <button class = "icon-btn" id = "play-btn">
+                <img src="assets/icons/Play-Button.svg" alt="Play" />
+            </button>
+            
             <button class = "icon-btn" id = "next-btn">
                 <img src="assets/icons/Play-Next.svg" alt="Prev" />
             </button>
-            
+        </nav>
+        <nav class="settings-controls">
             <button class = "icon-btn" id = "shuffle-btn">
                 <img src="assets/icons/Shuffle.svg" alt="Prev" />
             </button>
@@ -45,6 +46,7 @@
         </nav>
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 
 </html>
