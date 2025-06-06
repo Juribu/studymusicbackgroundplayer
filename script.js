@@ -22,7 +22,7 @@ buttons.forEach(({ id, base }) => {
 
     // Toggle: if not already filled, fill it
     if (!isAlreadyFilled) {
-      img.src = `assets/icons/${base}-Filled.svg`;
+      img.src = `assets/icons/${base}-filled.svg`;
       currentFilled = id;
     } else {
       currentFilled = null; // no button selected
